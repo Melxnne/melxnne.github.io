@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <title>Personal Portfolio | Melonne</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#">
+                    <img src="https://media.discordapp.net/attachments/1000377184361402458/1021555486778196069/genv_black.gif?ex=671f6def&is=671e1c6f&hm=8ebe387ef3b39ed731fa3b756622a1f5533bc39a187d5d0e1c73eef258bf9271&" alt="Melonne Logo">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-nav-toggle" aria-controls="nav-links">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hey, ich bin Melonne!</h1>
+                    <p>Hobby-Entwickler mit einer Leidenschaft für kreative Projekte in der Gaming- und Webentwicklung.</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn">Mehr über mich</a>
+                        <a href="#projects" class="btn secondary">Projekte ansehen</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://media.discordapp.net/attachments/1000377184361402458/1021555486778196069/genv_black.gif?ex=671f6def&is=671e1c6f&hm=8ebe387ef3b39ed731fa3b756622a1f5533bc39a187d5d0e1c73eef258bf9271&" alt="Melonne Logo">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Über Mich</h2>
+                    <p>Hey! Ich bin ein leidenschaftlicher Hobby-Entwickler, der seine Reise in die Programmierung 
+                       durch Gaming und die Faszination für kreative Webanwendungen begonnen hat.</p>
+                    <p>Was als kleines Hobby begann, hat sich zu einer echten Leidenschaft entwickelt. 
+                       Ich liebe es, Probleme zu lösen und neue Technologien zu erkunden.</p>
+                    
+                    <div class="skill-tags">
+                        <span class="skill-tag">FiveM</span>
+                        <span class="skill-tag">ESX</span>
+                        <span class="skill-tag">Lua</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">alt:V</span>
+                        <span class="skill-tag">RAGEUI</span>
+                        <span class="skill-tag">NativeUI</span>
+                    </div>
+                    
+                    <div class="fun-facts">
+                        <h3><i class="ri-star-line"></i> Fun Facts über mich:</h3>
+                        <ul>
+                            <li><i class="ri-gamepad-line"></i> Begeisterter Gamer</li>
+                            <li><i class="ri-code-box-line"></i> Code ist meine zweite Sprache</li>
+                            <li><i class="ri-heart-line"></i> Lieblingsprojekt: Gaming-Community Website</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://media.discordapp.net/attachments/1000377184361402458/1021555486778196069/genv_black.gif?ex=671f6def&is=671e1c6f&hm=8ebe387ef3b39ed731fa3b756622a1f5533bc39a187d5d0e1c73eef258bf9271&" alt="Melonne Profile">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Meine Projekte</h2>
+            
+            <div class="project-grid">
+                <!-- Projekt 1 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe 
+                            src="https://www.youtube.com/embed/u44xIHuI9sY" 
+                            title="FiveM Fraktionssystem"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-content">
+                        <h3>FiveM Fraktionssystem</h3>
+                        <p class="project-description">
+                            Ein umfangreiches Fraktionssystem für FiveM Server, entwickelt in Lua. 
+                            Das System bietet vollständige Verwaltung von Rängen, Rechten und Fraktionsaktivitäten.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn primary">
+                                <i class="fas fa-code"></i>
+                                Zum Projekt
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=u44xIHuI9sY" class="project-btn secondary" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                Video ansehen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projekt 2 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe 
+                            src="https://www.youtube.com/embed/n2J2ihVoiAo" 
+                            title="Shop Robbery System"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-content">
+                        <h3>Shop Robbery System</h3>
+                        <p class="project-description">
+                            Ein dynamisches Shopraub-System mit integriertem Geldwäsche-Mechanismus.
+                            Entwickelt für realistische Roleplay-Erfahrungen.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn primary">
+                                <i class="fas fa-code"></i>
+                                Zum Projekt
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=n2J2ihVoiAo" class="project-btn secondary" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                Video ansehen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projekt 3 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe 
+                            src="https://www.youtube.com/embed/example3" 
+                            title="ALTV VALEA RP"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-content">
+                        <h3>ALTV VALEA RP Redesign</h3>
+                        <p class="project-description">
+                            Ein komplettes Redesign des VALEA RP Systems mit modernem UI/UX Design
+                            und verbesserten Funktionen für eine optimale Spielerfahrung.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn primary">
+                                <i class="fas fa-code"></i>
+                                Zum Projekt
+                            </a>
+                            <a href="#" class="project-btn secondary" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                Video ansehen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Meine Skills</h2>
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="ri-code-line"></i>
+                        <span>FiveM</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-code-box-line"></i>
+                        <span>ESX</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-code-s-slash-line"></i>
+                        <span>Lua</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-html5-line"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-css3-line"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-javascript-line"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-code-line"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-gamepad-line"></i>
+                        <span>alt:V</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-layout-line"></i>
+                        <span>RAGEUI</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-layout-masonry-line"></i>
+                        <span>NativeUI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Lass uns connecten!</h2>
+            <p class="contact-text">Ich freue mich über neue Kontakte und spannende Projektideen!</p>
+            <div class="social-links">
+                <a href="https://github.com/Melxnne" target="_blank" class="social-link">
+                    <i class="ri-github-fill"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://discord.gg/jqcBDmbHtd" target="_blank" class="social-link">
+                    <i class="ri-discord-fill"></i>
+                    <span>Discord</span>
+                </a>
+                <a href="https://www.youtube.com/@Melonne" target="_blank" class="social-link">
+                    <i class="ri-youtube-fill"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="path/to/your/main.js"></script>
+</body>
+</html>
