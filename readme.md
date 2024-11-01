@@ -35,4 +35,4 @@ Die Seite ist in verschiedene Abschnitte unterteilt:
 ## Installation
 1. Klone das Repository:
    ```bash
-   git clone https://github.com/Melxnne/portfolio.git
+   git clone https://github.com/Melxnne/melxnne.github.io.git
