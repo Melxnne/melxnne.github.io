@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Personal Portfolio | Melonne</title>
 </head>
 <body>
 
     <nav>
         <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#">
-                    <img src="https://media.discordapp.net/attachments/1000377184361402458/1021555486778196069/genv_black.gif?ex=671f6def&is=671e1c6f&hm=8ebe387ef3b39ed731fa3b756622a1f5533bc39a187d5d0e1c73eef258bf9271&" alt="Melonne Logo">
-                </a>
+            <div class="nav-left">
+                <div class="nav-social">
+                    <a href="https://github.com/Melxnne" target="_blank" class="nav-social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="https://discord.gg/jqcBDmbHtd" target="_blank" class="nav-social-link">
+                        <i class="ri-discord-fill"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@Melonne" target="_blank" class="nav-social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
             </div>
 
             <ul class="nav-links">
@@ -26,6 +35,11 @@
             </ul>
 
             <div class="nav-right">
+                <div class="nav-logo">
+                    <a href="#">
+                        <img src="https://media.discordapp.net/attachments/1000377184361402458/1021555486778196069/genv_black.gif?ex=671f6def&is=671e1c6f&hm=8ebe387ef3b39ed731fa3b756622a1f5533bc39a187d5d0e1c73eef258bf9271&" alt="Melonne Logo">
+                    </a>
+                </div>
                 <button id="themeToggle" class="theme-toggle">
                     <i class="fas fa-sun"></i>
                 </button>
@@ -80,7 +94,7 @@
                         <ul>
                             <li><i class="ri-gamepad-line"></i> Begeisterter Gamer</li>
                             <li><i class="ri-code-box-line"></i> Code ist meine zweite Sprache</li>
-                            <li><i class="ri-heart-line"></i> Lieblingsprojekt: ALTV ROLEPLAY GTA:O STYLE</li>
+                            <li><i class="ri-heart-line"></i> Lieblingsprojekt: Gaming-Community Website</li>
                         </ul>
                     </div>
                 </div>
@@ -187,45 +201,66 @@
             <h2 class="section-title">Meine Skills</h2>
             <div class="skills-content">
                 <div class="skills-grid">
-                    <div class="skill-card">
-                        <i class="ri-code-line"></i>
-                        <span>FiveM</span>
+                    <!-- Frontend Development -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="ri-code-s-slash-line"></i>
+                            Frontend Development
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="ri-html5-fill"></i>
+                                </div>
+                                <div class="skill-name">HTML</div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="ri-css3-fill"></i>
+                                </div>
+                                <div class="skill-name">CSS</div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="ri-javascript-fill"></i>
+                                </div>
+                                <div class="skill-name">JavaScript</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="skill-card">
-                        <i class="ri-code-box-line"></i>
-                        <span>ESX</span>
+
+                    <!-- Backend Development -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="ri-server-line"></i>
+                            Backend Development
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="ri-database-2-line"></i>
+                                </div>
+                                <div class="skill-name">MySQL</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="skill-card">
-                        <i class="ri-code-s-slash-line"></i>
-                        <span>Lua</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-html5-line"></i>
-                        <span>HTML</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-css3-line"></i>
-                        <span>CSS</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-javascript-line"></i>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-code-line"></i>
-                        <span>C#</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-gamepad-line"></i>
-                        <span>alt:V</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-layout-line"></i>
-                        <span>RAGEUI</span>
-                    </div>
-                    <div class="skill-card">
-                        <i class="ri-layout-masonry-line"></i>
-                        <span>NativeUI</span>
+
+                    <!-- Tools & Others -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="ri-tools-line"></i>
+                            Tools & Others
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="ri-git-branch-line"></i>
+                                </div>
+                                <div class="skill-name">Git</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
